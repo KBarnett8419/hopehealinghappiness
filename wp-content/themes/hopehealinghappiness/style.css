@@ -1041,6 +1041,14 @@ object {
 	margin-bottom: 2%;
 }
 
+#wprmenu_bar .menu_title a {
+    display: inline-block;
+    position: relative;
+    top: 4px;
+    color: #fff;
+    text-decoration: none;
+}
+
 /*============SERVICE BUTTONS=============*/
 .btn-group button {
     background-color: #8cbbe4;
@@ -1080,11 +1088,31 @@ object {
 	display: none;
 }
 
+/*===========ABOUT PAGE MOBILE================*/
+.testimonial {
+	color: #73729b;
+	font-weight: bold;
+	width: 100%;
+}
+
+.about-container {
+	width: 100%;
+	border-right: none;
+}
+
 /*===========FONTS=====================*/
 
 /*=========== IPAD ====================*/
 
 @media screen and (min-width: 768px){
+	.site-header {
+		text-align: center;
+	}
+
+  .main-navigation {
+		display: none;
+	}
+
 	.phone-info {
 		display: none;
 	}
@@ -1097,6 +1125,35 @@ object {
 /*======== DESKTOP ==================*/
 
 @media screen and (min-width: 940px){
+	.site-header {
+		text-align: left;
+	}
+
+  .main-navigation {
+		display: block;
+	}
+
+.page-template.page-template-service-page .site-main {
+	margin-top: -50px;
+}
+
+.page-template.page-template-service-page .content-area {
+	padding-right: 10%;
+}
+
+.page-template-default .site-main {
+	margin-top: -50px;
+}
+
+.page-template-default.page.page-id-27 .content-area {
+	padding-right: 10%;
+}
+
+.content-area {
+	margin: 2% 10% 2% 15%;
+	font-family: 'Quicksand', sans-serif;
+	}
+
 #metaslider_16 {
 	margin-top: -100px;
 }
@@ -1123,5 +1180,22 @@ object {
     margin: 1.5em;
     display: inline;
 }
+
+/*===========ABOUT PAGE DESKTOP================*/
+.testimonial {
+	color: #73729b;
+	font-weight: bold;
+	float: left;
+	width: 20%;
+	padding-left: 20px;
+}
+
+.about-container {
+	float: left;
+	width: 70%;
+	padding-right: 20px;
+	border-right: 1px solid #8cbbe4;
+}
+
 
 }

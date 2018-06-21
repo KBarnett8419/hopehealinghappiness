@@ -12,7 +12,7 @@
  * @package hopehealinghappiness
  */
 
-get_header();
+get_header('custom');
 ?>
 
 	<div id="primary" class="content-area">

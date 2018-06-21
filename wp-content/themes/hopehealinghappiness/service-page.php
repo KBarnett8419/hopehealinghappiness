@@ -14,7 +14,7 @@
  * @package hopehealinghappiness
  */
 
-get_header('service');
+get_header('custom');
 ?>
 
 	<div id="primary" class="content-area">
