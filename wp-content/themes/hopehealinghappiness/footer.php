@@ -15,6 +15,7 @@
 
 	<footer id="colophon" class="site-footer">
 		<div class="site-info">
+			<a href="https://www.facebook.com/HopeHealingHappinessCounseling/" target="_blank"><img src="http://hopehealinghappinesscounseling.com/wp-content/uploads/2018/06/facebook-3-32.png" style="margin: 0 10px 0 0;"></a><a href="https://www.instagram.com/hhhcounseling/" target="_blank"><img src="http://hopehealinghappinesscounseling.com/wp-content/uploads/2018/06/instagram-32.png"></a>
 			<p>Hope, Healing & Happiness Counseling Services <br>141 South Ave, Suite 101 <br>Fanwood, NJ 07023<br>(908) 312-0417<br>Kcofone417@gmail.com<br><br>Copyright (c) 2018 Hope, Healing & Happinesss. All Rights Reserved.</p>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->

@@ -481,9 +481,9 @@ hr {
 	margin-bottom: 1.5em;
 }
 
-ul, ol {
+/* ul, ol {
 	margin: 0 0 1.5em 3em;
-}
+} */
 
 ul {
 	list-style: disc;
@@ -1021,7 +1021,7 @@ object {
 .call-banner {
 	text-align: center;
 	padding: 5px 0;
-	background-color: #8cbbe4;
+	background-color: #9378ba;
 	color: #fff;
 	font-weight: bold;
 	display: block;
@@ -1056,7 +1056,7 @@ object {
     color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 50%; /* Set a width if needed */
+    width: 100%; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
 }
 
@@ -1075,7 +1075,7 @@ object {
 		color: white; /* White text */
     padding: 10px 24px; /* Some padding */
     cursor: pointer; /* Pointer/hand icon */
-    width: 50%; /* Set a width if needed */
+    width: 100%; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
 }
 
@@ -1100,7 +1100,13 @@ object {
 	border-right: none;
 }
 
-/*===========FONTS=====================*/
+/*===========CONTACT PAGE MOBILE=====================*/
+#nf-field-4 {
+	background-color: #9378ba;
+  color: #fff;
+  padding: 10px 15px;
+  font-size: 1em;
+}
 
 /*=========== IPAD ====================*/
 
@@ -1197,5 +1203,25 @@ object {
 	border-right: 1px solid #8cbbe4;
 }
 
+/*========SERVICE PAGE DESKTOP==================*/
+.btn-group button {
+    background-color: #8cbbe4;
+    border: 1px solid #276aa5;
+    color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
+
+.btn-group-sessions button {
+    background-color: #73729b;
+    border: 1px solid #4b4a68;
+		color: white; /* White text */
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    width: 50%; /* Set a width if needed */
+    display: block; /* Make the buttons appear below each other */
+}
 
 }

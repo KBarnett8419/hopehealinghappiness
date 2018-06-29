@@ -20,13 +20,13 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'hopehealinghappiness');
+define('DB_NAME', 'hopehea8_hopehealinghappiness');
 
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'hopehea8_hap');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'B!V$TqtrI_,R');
 
 /** MySQL hostname */
 define('DB_HOST', 'localhost');

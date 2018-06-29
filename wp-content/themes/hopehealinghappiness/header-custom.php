@@ -16,6 +16,13 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
+	<meta property="og:locale" content="en_US" />
+	<meta property="og:type" content="website" />
+	<meta property="og:title" content="Hope, Healing & Happiness Counseling Services" />
+	<meta property="og:description" content="Counseling services located in Fanwood, New Jersey" />
+	<meta property="og:url" content="http://www.hopehealinghappinesscounseling.com" />
+	<meta property="og:site_name" content="Hope, Healing & Happiness Counseling Services" />
+	<meta property="og:image" content="http://hopehealinghappinesscounseling.com/wp-content/uploads/2018/06/hopehealinghappiness-og-image.png" />
 
 	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
