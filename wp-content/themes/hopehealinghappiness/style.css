@@ -1058,6 +1058,7 @@ object {
     cursor: pointer; /* Pointer/hand icon */
     width: 100%; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
+		font-size: 1em;
 }
 
 /* Add a background color on hover */
@@ -1077,6 +1078,7 @@ object {
     cursor: pointer; /* Pointer/hand icon */
     width: 100%; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
+		font-size: 1em;
 }
 
 /* Add a background color on hover */
@@ -1108,6 +1110,24 @@ object {
   font-size: 1em;
 }
 
+.address-bucket {
+	background-color: #d3d3d340;
+  padding: 5%;
+  margin-bottom: 20px;
+	text-align: center;
+}
+
+.ninja-container {
+	width: 100%;
+	/*margin-right: 5%;*/
+	float: none;
+}
+
+.contact-img {
+	margin: 10%;
+	display: none;
+}
+
 /*=========== IPAD ====================*/
 
 @media screen and (min-width: 768px){
@@ -1126,6 +1146,27 @@ object {
 	#metaslider_16 {
 		margin-top: 0;
 	}
+
+	.address-bucket {
+		background-color: #d3d3d340;
+		padding: 5% 2%;
+    margin: 0 20px 20px 0;
+    width: 50%;
+    float: left;
+    text-align: center;
+	}
+
+	.ninja-container {
+		width: 95%;
+		margin-right: 5%;
+		float: left;
+	}
+
+	.contact-img {
+		margin: 10%;
+		display: none;
+	}
+
 }
 
 /*======== DESKTOP ==================*/
@@ -1212,6 +1253,7 @@ object {
     cursor: pointer; /* Pointer/hand icon */
     width: 50%; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
+		font-size: 1em;
 }
 
 .btn-group-sessions button {
@@ -1222,6 +1264,28 @@ object {
     cursor: pointer; /* Pointer/hand icon */
     width: 50%; /* Set a width if needed */
     display: block; /* Make the buttons appear below each other */
+		font-size: 1em;
+}
+
+/*=========CONTACT DESKTOP===============*/
+.address-bucket {
+	background-color: #d3d3d340;
+	padding: 5% 2%;
+  margin: 0 20px 20px 0;
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.ninja-container {
+	width: 50%;
+	margin-right: 5%;
+	float: left;
+}
+
+.contact-img {
+	margin: 10%;
+	display: block;
 }
 
 }
